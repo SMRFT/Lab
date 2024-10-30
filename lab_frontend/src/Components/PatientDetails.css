@@ -1,0 +1,155 @@
+.patient-details-container {
+  max-width: 1100px;
+  margin-top: 20px;
+  margin-left: 300px;
+  padding: 20px;
+  /* background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); */
+  transition: all 0.3s ease;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.date-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  color: #666;
+  gap: 10px;
+}
+
+.date-picker label {
+  font-weight: bold;
+  color: #333;
+}
+
+.react-datepicker-wrapper {
+  width: auto;
+}
+
+.react-datepicker__input-container input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.react-datepicker__input-container input:hover {
+  border-color: #0178a1;
+}
+
+.react-datepicker__input-container input:focus {
+  outline: none;
+  border-color: #0178a1;
+  box-shadow: 0 0 0 2px rgba(1, 120, 161, 0.3);
+}
+
+.react-datepicker__header {
+  background-color: #6d929e;
+  color: #fff !important;
+  padding-top: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  font-size: 1.2em;
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: #fff;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__month-text--selected,
+.react-datepicker__year-text--selected {
+  background-color: #6a4bff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__year-text--keyboard-selected {
+  background-color: #6a4bff;
+  color: #0f0f0f;
+  border-radius: 50%;
+}
+
+.react-datepicker__month-year-dropdown,
+.react-datepicker__year-dropdown-container {
+  text-align: center;
+}
+
+
+.no-data {
+  text-align: center;
+  font-size: 1.3em;
+  color: #888;
+  margin-top: 20px;
+}
+
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.05);
+}
+
+.patient-table th, .patient-table td {
+  padding: 15px;
+  text-align: center;
+  color: #333;
+  border-bottom: 1px solid #e0e7ec;
+}
+
+.patient-table th {
+  background-color: #f1f4f8;
+  color: #5c636a;
+  font-weight: bold;
+}
+
+.patient-table .patient-row:hover {
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0178a1;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #015f7a;
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(1, 120, 161, 0.4);
+}

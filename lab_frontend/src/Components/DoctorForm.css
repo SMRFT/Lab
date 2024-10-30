@@ -1,0 +1,58 @@
+.doctor-form {
+    padding: 50px;
+    width: 90%;
+    margin: 250px;
+}
+  
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+  
+.doctor-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 16px;
+}
+  
+.doctor-table th,
+.doctor-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+  
+.doctor-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+  
+.action-button {
+    padding: 8px 12px;
+    margin: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #007bff; /* Default button color */
+}
+  
+.action-button.rerun-initiated {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+  
+.action-button.rerun-initiated::after {
+    content: ' !';
+    color: black;
+    font-weight: bold;
+}
+  
+.action-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
